@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Jacques+Francois&family=Tienne:wght@400;700;900&display=swap");
 .body {
   display: grid;
   grid-template-columns: 0.7fr 1.1fr repeat(3, 1fr);
@@ -64,6 +65,7 @@
   justify-content: space-evenly;
 }
 .item-nav {
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   list-style: none;
 }
@@ -83,6 +85,7 @@
   justify-content: center;
 }
 .button-login {
+  font-family: "Inter", sans-serif;
   color: #1d1c1c;
   background-color: #8ab0fd;
   border-radius: 10px;
@@ -110,20 +113,29 @@
   padding-bottom: 15px;
 }
 .subpresentation-area {
+  padding-top: 3em;
+  padding-left: 2em;
   padding-bottom: 3em;
   padding-right: 13em;
 }
 
 /*Texto Grande*/
 .subpresentation-area h1 {
+  height: 1em;
+  font-family: "Tienne", serif;
   font-size: 44px;
+  margin: 0;
 }
 /*Sub texto*/
 .subpresentation-area h5 {
-  font-size: 15px;
+  font-family: "Italiana", sans-serif;
+  font-size: 25px;
 }
 /*Texto rojo*/
 .subpresentation-area p {
+  font-family: "Jacques Francois", serif;
+  font-weight: 100;
+  font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,6 +148,7 @@
 }
 /*Botón reservar*/
 .button-presentation {
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: white;
   border-radius: 10px;

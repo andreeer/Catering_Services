@@ -6,6 +6,7 @@ function App() {
   return (
     <>
       <div>
+      <link href="https://fonts.googleapis.com/css2?family=Tienne:wght@400;700;900&display=swap" rel="stylesheet"></link>
         <MainView></MainView> 
       </div>
     </>
